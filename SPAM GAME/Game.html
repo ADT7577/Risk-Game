@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SPAM</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  </head>
+
+  <body>
+    <!--     HEADER -->
+    <div id="header"><h1>SPAM</h1>
+      <a href="index.html">
+        <img src="Spam.PNG" alt="Home" class="icon" />
+      </a>
+    </div>
+
+    <!--     BODY -->
+    <div id="main">
+      <canvas id="gameCanvas" width="400" height="300"></canvas>
+      <!--       
+      SCOREBOARD -->
+      <div class="scoreboard">Score: <span id="score">0</span></div>
+      <!--       
+      IMAGES -->
+      <div id="imageContainer">
+        <img id="spamImage" src="SPAM.PNG" alt="Spam Image" />
+      </div>
+      <!--       RESULTS -->
+      <div id="resultText"></div>
+      <button onclick="playGame()">BET</button>
+      <script src="sketch.js"></script>
+      <!--     <button type="button" > Lets Play! </button> -->
+    </div>
+    <!--     FOOTER -->
+    <div id="footer"><p>By ALEXSORCIST</p></div>
+  </body>
+</html>
